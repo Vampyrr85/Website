@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+        <title></title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <header>
+            <div></div>
+            <div class = "banner">
+                <h1>Sir Sammy's Comic Kingdom - Contact</h1>
+            </div>
+        </header>
+        <div class = "button-links">
+            <nav>
+                <ul>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "news.html">News</a></li>
+                    <li><a href = "products-services.html">Products/Services</a></li>
+                    <li><a href = "contact.html">Contact</a></li>
+                    <li><a href = "about.html">About</a></li>
+                </ul>
+            </nav>
+        </div> <!-- button-links -->
+        <main>
+            <div class = "contact">
+                <h2>Contact Us</h2>
+                <form method = "post" action="https://johnrhea.com/undead-form-practice.php" class = "contact-form">
+                    <div class = "form-field">
+                        <label><span class = "labeltext">Name: <span class = "req">*</span></span></label>
+                        <input type = "text" id = "name" name = "name" class = "textfield" required>
+                    </div> <!-- form-field -->
+                    <div class = "form-field">
+                        <label><span class = "labeltext">Phone: <span class = "req">*</span></span></label>
+                        <input type = "phone" id = "phone" name = "phone" class = "textfield" required>
+                    </div> <!-- form-field -->
+                    <div class = "form-field">
+                        <label><span class = "labeltext">Email: <span class = "req">*</span></span></label>
+                        <input type = "email" id = "email" name = "email" class = "textfield" required>
+                    </div> <!-- form-field -->
+                    <label for = "talkAbout">I want to talk about...</label>
+                        <select id = "talkAbout" name = "talkAbout">  
+                                <option value = "product-request">Are we missing something that you want stocked?</option>
+                                <option value = "general-comment">How are we doing?</option>
+                                <option value = "complaint">Is there something we can do better?</option>
+                        </select>    
+                    <div class = "form-field">
+                        <label><span class = "labeltext">Comments: <span class = "req">*</span></span></label>
+                        <textarea id = "comments" name = "comments" rows = "2" cols = "25" required></textarea> 
+                    </div> <!-- form-field -->
+                    <input type = "reset" value = "Reset" class = "contact-button">
+                    <input type = "submit" value = "Submit" class = "contact-button">
+                </form> <!-- contact form -->  
+                <div class = "our-info">
+                    <br>
+                    <p>Our Phone Number: <a href = "tel:+155586675309">(555)-867-5309</a></p>
+                    <p>Our Email: <a href = "mailto:sammys@samscomics.com">sammys@samscomics.com</a></p>
+                    <p>Our Address: 1234 Marigold Plaza Suite 270 Charlottesville, Virginia 22903</p>
+                </div>
+            </div> <!-- contact -->
+        </main>
+        <footer>&copy;2024 James G. Rowe III</footer>
+    </body>
+</html>
